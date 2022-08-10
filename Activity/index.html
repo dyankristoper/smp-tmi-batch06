@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Website</title>
+
+    <style>
+        p {
+            font-size: 12px;
+        }
+
+        .blog-post{
+            color: red;
+        }
+    </style>
+
+    <link type="text/css" rel="stylesheet" href="styles.css" >    
+</head>
+<body>
+   <h1>This is amazing!</h1>
+   <h2>This will be styled</h2> 
+   <p>This is something i've added</p>
+
+   <!-- This is a comment -->
+
+   <!-- 
+        Simple HTML Activity
+
+    1. Create a blog post, one title <h2> and one paragraph <p>
+    2. Create a table, 1 row for header, 1 row for data
+    3. Create a form, 1 text input and 1 submit button    
+    -->
+
+
+    <!-- Blog Post -->
+    <section class="blog-post">
+        <h2>My First HTML Website Experience</h2>
+        <p>
+            It was a mix of fun and challenge. 
+        </p>
+    </section>
+
+    <!-- Table -->
+    <table>
+        <!-- Header -->
+        <tr class="table-header">
+            <th style="color: red;">Item</th>
+            <th style="color: blue;">Price</th>
+        </tr>
+
+        <tr class="table-header">
+            <td>Tomatoes</td>
+            <td>P 300/kg</td>
+        </tr>
+
+        <tr>
+            <td>Onion</td>
+            <td>P 100/kg</td>
+        </tr>
+
+        <tr>
+            <td>Avocado</td>
+            <td>P 450/kg</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <div class="login-form">
+        <form>
+            <label>Username</label>
+            <input type="text" id="username" />
+
+            <label>Password</label>
+            <input type="password" id="password" />
+
+            <input id="submit" type="submit" value="LOGIN" />
+        </form>
+    </div>
+</body>
+</html>
